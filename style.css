@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0px !important;
+  margin: 0px !important;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif !important;
+  color: black;
+}
+
+.title {
+  font-weight: 400;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.sub-header {
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+.service-box {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  margin: 8px auto !important;
+}
+
+ul {
+  height: 100%;
+}
+
+.heading-ul-div {
+  /* border: 1px solid red; */
+
+  width: 15rem;
+  text-align: center;
+}
+
+.heading-ul-div > h2 {
+  text-align: center;
+  min-height: 6rem;
+}
+
+.ul-div {
+  border: 1px solid black;
+  width: 15rem;
+  margin-bottom: 2rem !important;
+}
+
+
+
+/* Choose Us - START */
+
+
+.choose-us-header {
+  letter-spacing: 8px;
+  font-weight: 400;
+}
+.choose-us-explain p{
+  line-height: 3;
+  word-spacing: 4px;
+}
+
+
+
+/* Choose Us - END */
+
+
+
+.heading {
+  /* font-size: 4.0625rem; */
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+
+/* colors */
+
+.orangeSpan {
+  color: #ff7a00;
+}
+
+.redSpan {
+  color: #b00101;
+}
+
+.blueSpan {
+  color: #2c568b;
+}
+
+.greenSpan {
+  color: #27aa7b;
+}
+
+.and-bg {
+  padding-left: 10px;
+  color: white;
+  background-color: #c4c4c4;
+}
+
+/* Legal  - START */
+.legal {
+ 
+
+}
+
+
+.legal-left {
+  /* background: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.legal-left > p {
+  line-height: 1.5;
+  letter-spacing: 8px;
+  margin: 20px !important;
+}
+
+.legal-right {
+  background-color: #18384d;
+  color: white;
+}
+
+.ul-container {
+
+}
+
+.ul-container > ul {
+  margin: 0 auto;
+}
+
+.ul-container li {
+  list-style-type: disc;
+  text-transform: uppercase;
+}
+
+/* Legal  - START */
+
+
+
+
+/*  Service  COO*/
+
+.service-coo-left {
+  padding-right: 10px !important;
+
+}
+
+
+/* Service COO END */
+
+/* Trade */
+
+.trade {
+  display: flex;
+}
+.trade div {
+  flex: 1;
+}
+
+.trade-left img {
+  width: 100%;
+}
+
+.trade-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.trade-right h3 {
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 7px;
+  margin: 0 auto;
+}
+
+/* Reporting */
+
+.report-left {
+  background-color: #ff9900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.report-left p {
+  font-variant: small-caps;
+  /* margin: 30px !important; */
+  width: 80%;
+  color: white;
+}
+

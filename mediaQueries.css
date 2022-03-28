@@ -1,0 +1,48 @@
+@media (min-width: 992px) {
+  .service-coo-left {
+    border-right: 1px solid black;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  /* html {
+    font-size: 20px;
+  } */
+  .title h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  /* html {
+    font-size: 22px;
+  } */
+  .title h1 {
+    font-size: 4.375rem;
+  }
+
+
+  h2 {
+      font-size: 4rem;
+  }
+  h3 {
+      font-size: 3rem;
+  }
+  .ul-container li {
+      font-size: 2rem;
+  }
+  p{
+      font-size: 2rem;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 700px) {
+}
+
+@media (max-width: 400px) {
+}
