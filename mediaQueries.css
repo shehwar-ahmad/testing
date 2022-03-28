@@ -46,6 +46,12 @@
   .legal-left h3 {
     font-size: 3rem;
   }
+
+  .report-left p {
+    font-size: 2rem !important;
+  }
+
+
 }
 
 @media (min-width: 1700px) {
@@ -80,7 +86,7 @@
   }
 
   .legal-right li {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
   }
 
   .trade-right h3 {
