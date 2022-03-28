@@ -4,45 +4,109 @@
   }
 }
 
-
 @media (min-width: 1200px) {
-  /* html {
-    font-size: 20px;
-  } */
   .title h1 {
+    font-size: 3rem;
+  }
+
+  .legal-left h3 {
+    font-size: 5rem;
+  }
+  .legal-right {
+    padding: 50px !important;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .legal-right li {
+    font-size: 1.75rem;
+  }
+
+  .trade-right h3 {
+    font-size: 3.125rem;
+  }
+
+  #founder-brief {
+    font-size: 1.3rem;
+  }
+
+  .heading-ul-div h3 {
+    font-size: 1.8rem;
+  }
+
+  .legal-left h3 {
     font-size: 3rem;
   }
 }
 
 @media (min-width: 1700px) {
-  /* html {
-    font-size: 22px;
-  } */
   .title h1 {
     font-size: 4.375rem;
   }
 
+  .sub-header H2 {
+    font-size: 3rem;
+  }
+
+  .legal-left h3 {
+    font-size: 4.0625rem;
+  }
+  .legal-right {
+    padding: 100px !important;
+  }
 
   h2 {
-      font-size: 4rem;
+    font-size: 5rem;
   }
   h3 {
-      font-size: 3rem;
+    font-size: 3rem;
   }
-  .ul-container li {
-      font-size: 2rem;
-  }
-  p{
-      font-size: 2rem;
-  }
-  
-}
 
-@media (max-width: 1200px) {
+  .service-box li {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 2.25rem;
+  }
+
+  .legal-right li {
+    font-size: 1.5rem;
+  }
+
+  .trade-right h3 {
+    font-size: 4.0625rem;
+  }
+
+  .choose-us-explain p {
+    font-size: 2.25rem;
+  }
+
+  .report-left p {
+    font-size: 3rem !important;
+  }
+
+  #founder-brief {
+    font-size: 2.25rem;
+  }
+
+  .heading-ul-div h3 {
+    font-size: 2.25rem;
+  }
 }
 
 @media (max-width: 700px) {
-}
-
-@media (max-width: 400px) {
+  .heading-ul-div {
+    min-height: 50px;
+    margin-top: 12px !important;
+  }
 }

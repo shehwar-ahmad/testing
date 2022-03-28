@@ -48,11 +48,12 @@ ul {
 
   width: 15rem;
   text-align: center;
+
+  min-height: 100px;
 }
 
-.heading-ul-div > h2 {
+.heading-ul-div > h3 {
   text-align: center;
-  min-height: 6rem;
 }
 
 .ul-div {
@@ -61,25 +62,21 @@ ul {
   margin-bottom: 2rem !important;
 }
 
-
-
+.ul-container li {
+  font-size: 1.25rem;
+}
 /* Choose Us - START */
-
 
 .choose-us-header {
   letter-spacing: 8px;
   font-weight: 400;
 }
-.choose-us-explain p{
-  line-height: 3;
+.choose-us-explain p {
+  line-height: 2;
   word-spacing: 4px;
 }
 
-
-
 /* Choose Us - END */
-
-
 
 .heading {
   /* font-size: 4.0625rem; */
@@ -112,11 +109,6 @@ ul {
 }
 
 /* Legal  - START */
-.legal {
- 
-
-}
-
 
 .legal-left {
   /* background: green; */
@@ -125,10 +117,11 @@ ul {
   justify-content: center;
 }
 
-.legal-left > p {
+.legal-left h3 {
   line-height: 1.5;
   letter-spacing: 8px;
   margin: 20px !important;
+  font-weight: 400;
 }
 
 .legal-right {
@@ -137,7 +130,6 @@ ul {
 }
 
 .ul-container {
-
 }
 
 .ul-container > ul {
@@ -151,45 +143,28 @@ ul {
 
 /* Legal  - START */
 
-
-
-
 /*  Service  COO*/
 
 .service-coo-left {
   padding-right: 10px !important;
-
 }
 
+.service-coo-right h3 {
+  letter-spacing: 5px;
+  font-weight: 400;
+}
 
 /* Service COO END */
 
 /* Trade */
 
-.trade {
-  display: flex;
-}
-.trade div {
-  flex: 1;
-}
-
-.trade-left img {
-  width: 100%;
-}
-
-.trade-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 .trade-right h3 {
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: 7px;
   margin: 0 auto;
+  text-align: center;
 }
-
 /* Reporting */
 
 .report-left {
@@ -204,5 +179,17 @@ ul {
   /* margin: 30px !important; */
   width: 80%;
   color: white;
+  font-size: 1.25rem;
 }
 
+/* Founder */
+
+#founder-brief {
+  line-height: 2;
+  letter-spacing: 1.3px;
+  font-size: 1rem;
+}
+
+#founder-title {
+  font-weight: 400;
+}
