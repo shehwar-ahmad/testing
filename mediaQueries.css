@@ -5,115 +5,375 @@
 }
 
 @media (min-width: 1200px) {
-  .title h1 {
-    font-size: 3rem;
-  }
-
-  .legal-left h3 {
-    font-size: 5rem;
-  }
-  .legal-right {
-    padding: 50px !important;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 2rem;
-  }
-
-  .legal-right li {
-    font-size: 1.75rem;
-  }
-
   .trade-right h3 {
     font-size: 3.125rem;
-  }
-
-  #founder-brief {
-    font-size: 1.3rem;
-  }
-
-  .heading-ul-div h3 {
-    font-size: 1.8rem;
-  }
-
-  .legal-left h3 {
-    font-size: 3rem;
   }
 
   .report-left p {
     font-size: 2rem !important;
   }
-
-
 }
 
 @media (min-width: 1700px) {
-  .title h1 {
-    font-size: 4.375rem;
-  }
-
-  .sub-header H2 {
-    font-size: 3rem;
-  }
-
-  .legal-left h3 {
-    font-size: 4.0625rem;
-  }
-  .legal-right {
-    padding: 100px !important;
-  }
-
-  h2 {
-    font-size: 5rem;
-  }
-  h3 {
-    font-size: 3rem;
-  }
-
-  .service-box li {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 2.25rem;
-  }
-
-  .legal-right li {
-    font-size: 2.25rem;
-  }
-
   .trade-right h3 {
     font-size: 4.0625rem;
-  }
-
-  .choose-us-explain p {
-    font-size: 2.25rem;
   }
 
   .report-left p {
     font-size: 3rem !important;
   }
+}
 
-  #founder-brief {
-    font-size: 2rem;
-    font-weight: 400;
+/* MOBILE SCREEN */
+
+@media (min-width: 260px) and (max-width: 425px) {
+  /*  Page title */
+
+  .title h1 {
+    font-size: 32px !important;
+    line-height: 42px !important;
   }
 
+  .sub-header h2 {
+    font-size: 16px !important;
+    line-height: 23px !important;
+  }
+
+  /* SERVICE BOX */
+
   .heading-ul-div h3 {
-    font-size: 2.25rem;
+    width: auto !important;
+
+    font-size: 26px !important;
+    line-height: 52px;
+    min-height: 55px;
+  }
+
+  .ul-div li {
+    font-size: 17px !important;
+  }
+
+  /* Choose us */
+
+  .choose-us-header {
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.2em;
+  }
+
+  .choose-us-explain p {
+    font-size: 17px;
+    line-height: 38px;
+  }
+
+  /* Services */
+
+  .heading {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  /* Founder Container */
+
+  .founder {
+    margin-bottom: 2.5rem !important;
+  }
+
+  #founder-brief {
+    letter-spacing: 1px;
+
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    color: #000000;
+  }
+
+  #founder-title {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  /* Legal  */
+
+  .legal-right{
+    padding: 0 !important;
+  }
+
+  .legal-left h3 {
+    margin: 30px !important;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.575em;
+    text-align: center;
+  }
+
+  .legal-right li {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
-@media (max-width: 700px) {
-  .heading-ul-div {
-    min-height: 50px;
-    margin-top: 12px !important;
+/* Tablet */
+
+@media (min-width: 426px) and (max-width: 768px) {
+  /*  Page title */
+
+  .title h1 {
+    font-size: 40px !important;
+    line-height: 46px !important;
   }
+
+  .sub-header h2 {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+
+  /* SERVICE BOX */
+
+  .heading-ul-div h3 {
+    width: auto !important;
+
+    font-size: 28px !important;
+    line-height: 52px;
+    min-height: 55px;
+  }
+
+  .ul-div li {
+    font-size: 18px !important;
+  }
+
+  /* Choose us */
+
+  .choose-us-header {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .choose-us-explain p {
+    font-size: 22px;
+    line-height: 48px;
+  }
+
+  /* Services */
+
+  .heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  /* Founder Container */
+
+  .founder {
+    margin-bottom: 2.5rem !important;
+  }
+
+  #founder-brief {
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #founder-title {
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  #founder-img {
+    max-width: 75% !important;
+  }
+
+   /* Legal  */
+
+   .legal-left h3 {
+    margin: 40px !important;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.575em;
+  }
+
+  .legal-right li {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+
+}
+
+/* Laptop  */
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  /*  Page title */
+
+  .title h1 {
+    font-size: 45px !important;
+    line-height: 50px !important;
+  }
+
+  .sub-header h2 {
+    font-size: 22px !important;
+    line-height: 28px !important;
+  }
+
+  /* SERVICE BOX */
+
+  .heading-ul-div h3 {
+    width: auto !important;
+
+    font-size: 29px !important;
+    line-height: 52px;
+    min-height: 55px;
+  }
+
+  .ul-div li {
+    font-size: 19px !important;
+  }
+
+  /* Choose us */
+
+  .choose-us-header {
+    font-size: 42px;
+    line-height: 63px;
+  }
+
+  .choose-us-explain p {
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  /* Services */
+
+  .heading {
+    font-size: 42px;
+    line-height: 63px;
+  }
+
+  /* Founder Container */
+
+  .founder {
+    margin-bottom: 3rem !important;
+  }
+
+  #founder-brief {
+    letter-spacing: 1px;
+    font-size: 25px;
+    line-height: 48px;
+  }
+
+  #founder-title {
+    font-size: 38px;
+    line-height: 56px;
+
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+
+   /* Legal  */
+
+   .legal-left h3 {
+    margin: 40px !important;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.575em;
+  }
+
+  .legal-right li {
+    font-size: 23px;
+    line-height: 25px;
+  }
+
+
+ 
+
+}
+
+/* Large Screens */
+
+@media (min-width: 1441px) and (max-width: 2000px) {
+  /*  Page title */
+
+  .title h1 {
+    font-size: 60px !important;
+    line-height: 62px !important;
+  }
+
+  .sub-header h2 {
+    font-size: 30px !important;
+    line-height: 36px !important;
+  }
+
+  /* SERVICE BOX */
+
+  .heading-ul-div h3 {
+    width: auto !important;
+
+    font-size: 32px !important;
+    line-height: 52px;
+    min-height: 55px;
+  }
+
+  .ul-div li {
+    font-size: 21px !important;
+  }
+
+  /* Choose us */
+
+  .choose-us-header {
+    font-size: 54px;
+    line-height: 82px;
+  }
+
+  .choose-us-explain p {
+    font-size: 30px;
+    line-height: 64px;
+  }
+
+  /* Services */
+
+  .heading {
+    font-size: 54px;
+    line-height: 82px;
+  }
+
+  /* Founder Container */
+
+  .founder {
+    margin-bottom: 3rem !important;
+  }
+
+  #founder-brief {
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 58px;
+  }
+
+  #founder-title {
+    font-size: 40px;
+    line-height: 48px;
+
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+/* Legal */
+
+  .legal-left h3 {
+    margin: 40px !important;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.575em;
+  }
+
+  .legal-right li {
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+
 }
