@@ -74,7 +74,7 @@
   /* Legal  */
 
   .legal-right {
-    padding: 20PX !important;
+    padding: 20px !important;
   }
 
   .legal-left h3 {
@@ -391,9 +391,6 @@
     padding: 10px !important;
     padding-left: 10 !important;
   }
-
-
-
 }
 
 /* Large Screens */
@@ -520,9 +517,6 @@
     padding: 10px !important;
     padding-left: 100px !important;
   }
-
-
-
 }
 
 /*  For BootStrap */
