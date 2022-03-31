@@ -82,7 +82,7 @@ ul {
 
 .ul-div {
   border: 1px solid black;
-  width: 18rem;
+  width:260px;
   margin-bottom: 2rem !important;
   padding: 5px !important;
   font-size: 1.5rem;
@@ -264,7 +264,6 @@ line-height: 63px;
 
 .trade-right h3 {
   margin: 0 auto;
-  text-align: center;
 
 
   font-family: 'Actor';
@@ -272,13 +271,9 @@ line-height: 63px;
   font-weight: 400;
   font-size: 65px;
   line-height: 100px;
-  /* or 154% */
   
   text-align: center;
   letter-spacing: 0.2em;
-  
-
-
   
 }
 /* Reporting */
