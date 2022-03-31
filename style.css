@@ -261,6 +261,10 @@ ul {
 
   text-align: center;
   letter-spacing: 0.2em;
+
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+
 }
 /* Reporting */
 

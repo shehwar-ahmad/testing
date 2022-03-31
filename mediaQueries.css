@@ -74,7 +74,7 @@
   /* Legal  */
 
   .legal-right {
-    padding: 0 !important;
+    padding: 20PX !important;
   }
 
   .legal-left h3 {
@@ -365,7 +365,7 @@
   /* Trade */
 
   .trade-right h3 {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 50px;
   }
 
