@@ -149,7 +149,8 @@ ul {
   display: inline;
   color: white;
   background-color: #c4c4c4;
-  /* letter-spacing: 0em; */
+ letter-spacing: 0.575em;
+ padding-left: 0.575em !important;
 }
 
 /* Legal  - START */
@@ -168,19 +169,15 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 65px;
-  line-height: 80px;
+  line-height: 90px;
   letter-spacing: 0.575em;
 }
 
 .dash {
-  /* font-weight: lighter !important; */
-  /* display: inline-block;
-  border-left: 1px solid black;
-  margin: 0 !important;
-  height: 65px; */
+
   border-right: 1px solid black;
   height: 500px;
-  margin: auto 20px !important;
+  margin: auto 0.575em !important;
 }
 
 .legal-right {
