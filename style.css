@@ -151,9 +151,7 @@ ul {
   /* letter-spacing: 0em; */
 }
 
-.dash {
-  font-weight: 100 !important;
-}
+
 /* Legal  - START */
 
 .legal-left {
@@ -173,6 +171,20 @@ ul {
   line-height: 80px;
   letter-spacing: 0.575em;
 }
+
+.dash {
+  /* font-weight: lighter !important; */
+  /* display: inline-block;
+  border-left: 1px solid black;
+  margin: 0 !important;
+  height: 65px; */
+  border-right: 1px solid black;
+  height: 500px;
+margin:auto 20px !important;
+
+}
+
+
 
 .legal-right {
   background-color: #18384d;
@@ -214,12 +226,36 @@ ul {
 /*  Service  COO*/
 
 .service-coo-left {
-  padding-right: 10px !important;
+  /* padding-right: 10px !important; */
+  /* border-right: 1px solid black; */
+
 }
 
 .service-coo-right h3 {
-  letter-spacing: 5px;
+
+  font-family: 'Actor';
+  font-style: normal;
   font-weight: 400;
+  font-size: 65px;
+  line-height: 100px;
+  /* or 154% */
+  
+  text-align: center;
+  letter-spacing: 0.2em;
+
+}
+
+
+.service-coo-right p {
+
+  width: 90%;
+  margin: 0 auto !important;
+
+  font-family: 'Actor';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 63px;
 }
 
 /* Service COO END */
@@ -227,11 +263,23 @@ ul {
 /* Trade */
 
 .trade-right h3 {
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 7px;
   margin: 0 auto;
   text-align: center;
+
+
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 100px;
+  /* or 154% */
+  
+  text-align: center;
+  letter-spacing: 0.2em;
+  
+
+
+  
 }
 /* Reporting */
 
