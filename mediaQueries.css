@@ -110,6 +110,30 @@
     font-size: 23px;
     line-height: 35px;
   }
+
+  /* Reporting */
+
+  .report-left {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    min-height: 300px !important;
+  }
+  .report-left p {
+    width: 95%;
+    color: white;
+
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .reporting-heading {
+    margin: 20px auto !important;
+  }
+
+  .reporting-img {
+    padding: 10px !important;
+    padding-left: 10 !important;
+  }
 }
 
 /* Tablet */
@@ -217,6 +241,29 @@
     font-size: 30px;
     line-height: 40px;
   }
+
+  /* Reporting */
+
+  .report-left {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    min-height: 200px !important;
+  }
+  .report-left p {
+    width: 95%;
+
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .reporting-heading {
+    margin: 20px auto !important;
+  }
+
+  .reporting-img {
+    padding: 10px !important;
+    padding-left: 10 !important;
+  }
 }
 
 /* Laptop  */
@@ -321,6 +368,32 @@
     font-size: 40px;
     line-height: 50px;
   }
+
+  /* Reporting */
+
+  .report-left {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    min-height: 250px !important;
+  }
+  .report-left p {
+    width: 95%;
+
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .reporting-heading {
+    margin: 20px auto !important;
+  }
+
+  .reporting-img {
+    padding: 10px !important;
+    padding-left: 10 !important;
+  }
+
+
+
 }
 
 /* Large Screens */
@@ -424,6 +497,31 @@
     font-size: 47px;
     line-height: 60px;
   }
+
+  /* Reporting */
+
+  .report-left {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    min-height: 250px !important;
+  }
+  .report-left p {
+    width: 95%;
+
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .reporting-heading {
+    margin: 20px auto !important;
+  }
+
+  .reporting-img {
+    padding: 10px !important;
+    padding-left: 100px !important;
+  }
+
+
 
 }
 

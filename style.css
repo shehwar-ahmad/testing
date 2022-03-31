@@ -82,7 +82,7 @@ ul {
 
 .ul-div {
   border: 1px solid black;
-  width:260px;
+  width: 260px;
   margin-bottom: 2rem !important;
   padding: 5px !important;
   font-size: 1.5rem;
@@ -146,11 +146,11 @@ ul {
 }
 
 .and-bg {
+  display: inline;
   color: white;
   background-color: #c4c4c4;
   /* letter-spacing: 0em; */
 }
-
 
 /* Legal  - START */
 
@@ -180,11 +180,8 @@ ul {
   height: 65px; */
   border-right: 1px solid black;
   height: 500px;
-margin:auto 20px !important;
-
+  margin: auto 20px !important;
 }
-
-
 
 .legal-right {
   background-color: #18384d;
@@ -193,7 +190,6 @@ margin:auto 20px !important;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .legal-right li {
@@ -207,7 +203,7 @@ margin:auto 20px !important;
   text-align: justify;
 }
 
-.ul-container{
+.ul-container {
   /* background-color: red; */
   width: 80%;
 }
@@ -228,34 +224,29 @@ margin:auto 20px !important;
 .service-coo-left {
   /* padding-right: 10px !important; */
   /* border-right: 1px solid black; */
-
 }
 
 .service-coo-right h3 {
-
-  font-family: 'Actor';
+  font-family: "Actor";
   font-style: normal;
   font-weight: 400;
   font-size: 65px;
   line-height: 100px;
   /* or 154% */
-  
+
   text-align: center;
   letter-spacing: 0.2em;
-
 }
 
-
 .service-coo-right p {
-
   width: 90%;
   margin: 0 auto !important;
 
-  font-family: 'Actor';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 63px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 63px;
 }
 
 /* Service COO END */
@@ -265,16 +256,14 @@ line-height: 63px;
 .trade-right h3 {
   margin: 0 auto;
 
-
-  font-family: 'Actor';
+  font-family: "Actor";
   font-style: normal;
   font-weight: 400;
   font-size: 65px;
   line-height: 100px;
-  
+
   text-align: center;
   letter-spacing: 0.2em;
-  
 }
 /* Reporting */
 
@@ -284,13 +273,30 @@ line-height: 63px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  min-height: 350px;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
 }
 .report-left p {
   font-variant: small-caps;
-  /* margin: 30px !important; */
   width: 80%;
   color: white;
-  font-size: 1.25rem;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.reporting-heading {
+  margin: 20px auto !important;
+}
+
+.reporting-img {
+  padding: 10px !important;
+  padding-left: 100px !important;
 }
 
 /* Founder */
